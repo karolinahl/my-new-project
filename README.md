@@ -8,72 +8,81 @@ Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+My project is an AI helper for schools that recognizes common flowers and plants. Pupils can take a photo of a flower during a walk or in the school garden, and the AI suggests its name and basic facts. It supports outdoor learning, curiosity, and nature education in a fun and interactive way.
+
 
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Many pupils and even adults can’t recognize common flowers or plants around them.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+Nature education is often limited to textbooks and not connected to real outdoor experiences.
+
+Teachers may lack tools or time to prepare interactive field activities.
+
+My motivation comes from my interest in education and nature. I want to make outdoor learning more engaging and modern.
+
+This topic is important because it supports environmental awareness, observation skills, and curiosity in children — all in a simple and playful way.
+
 
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The user opens the mobile app or web tool and takes a photo of a flower or plant they find outdoors — for example, during a nature walk, a school trip, or in the school garden. The AI processes the image and gives an instant suggestion of the plant’s name, a short description, and fun facts (e.g. if it is edible, protected, or has historical use).
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+This tool is most useful in outdoor learning environments such as:
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+school yards
 
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
+parks and forests
 
-   totPop = sum(pop)
-   totFish = sum(fishers)
+botanical gardens
 
-   # write your solution here
+field trips
 
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+The main users are:
 
-main()
-```
+pupils (especially in primary school)
+
+teachers and educators
+
+nature enthusiasts and families
+
+Needs to consider:
+It should be easy to use for children with simple buttons and visual results
+
+The app should work offline or in low-connection areas
+
+It should support local languages and plant species
+
+Privacy: no login or data collection from children
 
 
-## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+This project does not aim to replace expert knowledge in biology or botany. The plant identification may not always be accurate, especially with poor photo quality or rare species. It should not be used to decide whether a plant is safe to touch or eat. When designing tools for children, privacy and safety must be prioritized — no personal data should be collected, and the app must remain easy to use and understandable. Ecological sensitivity and fairness in training data are also important to avoid cultural bias or promoting invasive species.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+This project could grow into a full educational app with interactive quizzes, seasonal plant guides, and support for multiple languages. It could also use GPS to show plants common in the local area or let pupils collect badges for plants they find.
+
+To move forward, I would need help from:
+
+a machine learning expert to improve image recognition
+
+a botany teacher or plant expert to verify the content
+
+a designer to make the app child-friendly
+
+developers to build a mobile or web version of the tool
+
+Collaboration with schools or environmental organizations would also help bring the tool into real use.
+
 
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+---
